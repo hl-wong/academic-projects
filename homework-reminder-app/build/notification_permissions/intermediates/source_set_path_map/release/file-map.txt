@@ -1,0 +1,12 @@
+com.vanethos.notification_permissions-jetified-annotation-experimental-1.1.0-0 C:\Users\HL Wong\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\res
+com.vanethos.notification_permissions-jetified-window-1.0.0-beta04-1 C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\res
+com.vanethos.notification_permissions-jetified-window-java-1.0.0-beta04-2 C:\Users\HL Wong\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\res
+com.vanethos.notification_permissions-core-1.6.0-3 C:\Users\HL Wong\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\res
+com.vanethos.notification_permissions-main-4 C:\Users\HL Wong\AppData\Local\Pub\Cache\hosted\pub.dev\notification_permissions-0.6.1\android\src\main\res
+com.vanethos.notification_permissions-release-5 C:\Users\HL Wong\AppData\Local\Pub\Cache\hosted\pub.dev\notification_permissions-0.6.1\android\src\release\res
+com.vanethos.notification_permissions-pngs-6 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\generated\res\pngs\release
+com.vanethos.notification_permissions-resValues-7 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\generated\res\resValues\release
+com.vanethos.notification_permissions-rs-8 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\generated\res\rs\release
+com.vanethos.notification_permissions-mergeReleaseResources-9 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.vanethos.notification_permissions-mergeReleaseResources-10 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.vanethos.notification_permissions-merged_res-11 C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\build\notification_permissions\intermediates\merged_res\release

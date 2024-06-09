@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.homework_reminder_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:2:5-81
+11-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:2:22-78
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:3:5-66
+12-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:3:22-63
+13    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+13-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:4:5-81
+13-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+14-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:5:5-73
+14-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:5:22-71
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:6:5-77
+15-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:6:22-74
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:8:5-67
+16-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:9:5-79
+17-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:9:22-76
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:10:5-79
+18-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:10:22-76
+19
+20    <application
+21        android:name="android.app.Application"
+21-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:14:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] C:\Users\HL Wong\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="homework_reminder_app" >
+24-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:13:9-46
+25        <activity
+25-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:16:9-37:20
+26            android:name="com.example.homework_reminder_app.MainActivity"
+26-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:17:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:21:13-163
+28            android:exported="true"
+28-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:18:13-36
+29            android:hardwareAccelerated="true"
+29-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:22:13-47
+30            android:launchMode="singleTop"
+30-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:19:13-43
+31            android:theme="@style/LaunchTheme"
+31-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:20:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:23:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:28:13-31:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:29:15-70
+42                android:resource="@style/NormalTheme" />
+42-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:30:15-52
+43
+44            <intent-filter>
+44-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:32:13-36:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:33:17-68
+45-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:34:17-76
+47-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <receiver
+51-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:39:9-130
+52            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+52-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:39:44-128
+53            android:exported="false" />
+53-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:39:19-43
+54        <receiver
+54-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:40:9-49:20
+55            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+55-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:41:13-101
+56            android:exported="false" >
+56-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:42:13-37
+57            <intent-filter>
+57-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:43:13-48:29
+58                <action android:name="android.intent.action.BOOT_COMPLETED" />
+58-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:44:17-78
+58-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:44:25-76
+59                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+59-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:45:17-83
+59-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:45:25-81
+60                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+60-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:46:17-82
+60-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:46:25-79
+61                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+61-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:47:17-81
+61-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:47:25-79
+62            </intent-filter>
+63        </receiver>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:52:9-54:33
+69            android:name="flutterEmbedding"
+69-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:53:13-44
+70            android:value="2" />
+70-->C:\Users\HL Wong\Documents\Semester 2\Programming for Mobile Devices\flutter\homework_reminder_app\android\app\src\main\AndroidManifest.xml:54:13-30
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\HL Wong\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+78    </application>
+79
+80</manifest>
